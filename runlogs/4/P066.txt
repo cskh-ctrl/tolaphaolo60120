@@ -1,0 +1,102 @@
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+added 6 packages in 2s
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+P066 22 shots 104.0s projects/P066
+Rendering frames 0-2497 (104.0 s) with 4 worker(s)…
+  worker 0: frames 0-625 launching
+  worker 1: frames 625-1250 launching
+  worker 2: frames 1250-1875 launching
+  worker 3: frames 1875-2497 launching
+  worker 0: player ready
+  worker 1: player ready
+  worker 2: player ready
+  worker 3: player ready
+  worker 2: first frame ok
+  worker 3: first frame ok
+  worker 1: first frame ok
+  worker 0: first frame ok
+  48/2497 frames  1.03 fps  elapsed 0m46s  eta 39m28s
+  96/2497 frames  1.10 fps  elapsed 1m27s  eta 36m27s
+  144/2497 frames  1.16 fps  elapsed 2m04s  eta 33m45s
+  192/2497 frames  1.18 fps  elapsed 2m43s  eta 32m33s
+  240/2497 frames  1.18 fps  elapsed 3m23s  eta 31m53s
+  288/2497 frames  1.19 fps  elapsed 4m02s  eta 30m53s
+  336/2497 frames  1.19 fps  elapsed 4m41s  eta 30m10s
+  384/2497 frames  1.19 fps  elapsed 5m23s  eta 29m35s
+  432/2497 frames  1.18 fps  elapsed 6m05s  eta 29m07s
+  480/2497 frames  1.19 fps  elapsed 6m42s  eta 28m08s
+  528/2497 frames  1.21 fps  elapsed 7m16s  eta 27m07s
+  576/2497 frames  1.23 fps  elapsed 7m48s  eta 25m60s
+  624/2497 frames  1.25 fps  elapsed 8m19s  eta 24m57s
+  672/2497 frames  1.27 fps  elapsed 8m50s  eta 23m59s
+  720/2497 frames  1.28 fps  elapsed 9m24s  eta 23m11s
+  768/2497 frames  1.29 fps  elapsed 9m58s  eta 22m25s
+  816/2497 frames  1.29 fps  elapsed 10m32s  eta 21m42s
+  864/2497 frames  1.30 fps  elapsed 11m03s  eta 20m52s
+  912/2497 frames  1.32 fps  elapsed 11m32s  eta 20m03s
+  960/2497 frames  1.33 fps  elapsed 12m01s  eta 19m15s
+  1008/2497 frames  1.34 fps  elapsed 12m31s  eta 18m30s
+  1056/2497 frames  1.35 fps  elapsed 13m04s  eta 17m50s
+  1104/2497 frames  1.35 fps  elapsed 13m40s  eta 17m15s
+  1152/2497 frames  1.35 fps  elapsed 14m16s  eta 16m40s
+  1200/2497 frames  1.34 fps  elapsed 14m54s  eta 16m06s
+  1248/2497 frames  1.34 fps  elapsed 15m34s  eta 15m34s
+  1296/2497 frames  1.33 fps  elapsed 16m11s  eta 15m00s
+  1344/2497 frames  1.33 fps  elapsed 16m48s  eta 14m25s
+  1392/2497 frames  1.33 fps  elapsed 17m26s  eta 13m50s
+  1440/2497 frames  1.33 fps  elapsed 18m04s  eta 13m16s
+  1488/2497 frames  1.32 fps  elapsed 18m45s  eta 12m43s
+  1536/2497 frames  1.32 fps  elapsed 19m25s  eta 12m09s
+  1584/2497 frames  1.31 fps  elapsed 20m05s  eta 11m34s
+  1632/2497 frames  1.31 fps  elapsed 20m43s  eta 10m59s
+  1680/2497 frames  1.31 fps  elapsed 21m21s  eta 10m23s
+  1728/2497 frames  1.31 fps  elapsed 22m01s  eta 9m48s
+  1776/2497 frames  1.31 fps  elapsed 22m38s  eta 9m11s
+  1824/2497 frames  1.31 fps  elapsed 23m16s  eta 8m35s
+  1872/2497 frames  1.31 fps  elapsed 23m52s  eta 7m58s
+  1920/2497 frames  1.31 fps  elapsed 24m29s  eta 7m21s
+  1968/2497 frames  1.31 fps  elapsed 25m07s  eta 6m45s
+  2016/2497 frames  1.31 fps  elapsed 25m44s  eta 6m08s
+  2064/2497 frames  1.31 fps  elapsed 26m19s  eta 5m31s
+  2112/2497 frames  1.31 fps  elapsed 26m51s  eta 4m54s
+  2160/2497 frames  1.31 fps  elapsed 27m26s  eta 4m17s
+  2208/2497 frames  1.31 fps  elapsed 28m03s  eta 3m40s
+  2256/2497 frames  1.31 fps  elapsed 28m39s  eta 3m04s
+  2304/2497 frames  1.31 fps  elapsed 29m16s  eta 2m27s
+  2352/2497 frames  1.31 fps  elapsed 29m55s  eta 1m51s
+  2400/2497 frames  1.31 fps  elapsed 30m31s  eta 1m14s
+  2448/2497 frames  1.31 fps  elapsed 31m10s  eta 0m37s
+  2496/2497 frames  1.31 fps  elapsed 31m47s  eta 0m01s
+
+Done: /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P066/build/video_silent.mp4  (31m50s)
+generating music: 4 section(s) — cute@0.5, gentle@0.5, sacred@0.5, gentle@0.7
+sfx: 11 cue(s), ambience on 20 shot(s)
+wrote projects/P066/build/mix.wav  (104.0s, target -14 LUFS)
+FINAL VIDEO: projects/P066/out/video.mp4
+Wrote 1 stills + contact sheet(s) to /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P066-cover/build/stills
+wrote /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P066/out/anh_bia.png
+DONE 06_P066_Nam_chiec_ao_le_cai_nhau_trong_phong_thanh 104.020000s
+
+real	33m42.759s
+user	7m1.807s
+sys	0m25.482s
+status=success
