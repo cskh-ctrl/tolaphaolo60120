@@ -1,0 +1,100 @@
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+added 6 packages in 2s
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+P062 20 shots 100.7s projects/P062
+Rendering frames 0-2416 (100.7 s) with 4 worker(s)…
+  worker 0: frames 0-604 launching
+  worker 1: frames 604-1208 launching
+  worker 2: frames 1208-1812 launching
+  worker 3: frames 1812-2416 launching
+  worker 2: player ready
+  worker 0: player ready
+  worker 1: player ready
+  worker 3: player ready
+  worker 0: first frame ok
+  worker 2: first frame ok
+  worker 3: first frame ok
+  worker 1: first frame ok
+  48/2416 frames  1.42 fps  elapsed 0m34s  eta 27m51s
+  96/2416 frames  1.49 fps  elapsed 1m04s  eta 25m52s
+  144/2416 frames  1.55 fps  elapsed 1m33s  eta 24m25s
+  192/2416 frames  1.55 fps  elapsed 2m04s  eta 23m51s
+  240/2416 frames  1.55 fps  elapsed 2m34s  eta 23m21s
+  288/2416 frames  1.55 fps  elapsed 3m06s  eta 22m51s
+  336/2416 frames  1.55 fps  elapsed 3m36s  eta 22m20s
+  384/2416 frames  1.55 fps  elapsed 4m07s  eta 21m48s
+  432/2416 frames  1.55 fps  elapsed 4m39s  eta 21m20s
+  480/2416 frames  1.54 fps  elapsed 5m12s  eta 20m58s
+  528/2416 frames  1.53 fps  elapsed 5m46s  eta 20m37s
+  576/2416 frames  1.52 fps  elapsed 6m19s  eta 20m11s
+  624/2416 frames  1.52 fps  elapsed 6m50s  eta 19m39s
+  672/2416 frames  1.51 fps  elapsed 7m24s  eta 19m12s
+  720/2416 frames  1.52 fps  elapsed 7m55s  eta 18m38s
+  768/2416 frames  1.52 fps  elapsed 8m24s  eta 18m01s
+  816/2416 frames  1.53 fps  elapsed 8m52s  eta 17m24s
+  864/2416 frames  1.54 fps  elapsed 9m22s  eta 16m49s
+  912/2416 frames  1.54 fps  elapsed 9m51s  eta 16m15s
+  960/2416 frames  1.55 fps  elapsed 10m20s  eta 15m40s
+  1008/2416 frames  1.55 fps  elapsed 10m49s  eta 15m07s
+  1056/2416 frames  1.55 fps  elapsed 11m20s  eta 14m36s
+  1104/2416 frames  1.56 fps  elapsed 11m48s  eta 14m02s
+  1152/2416 frames  1.56 fps  elapsed 12m18s  eta 13m29s
+  1200/2416 frames  1.57 fps  elapsed 12m46s  eta 12m57s
+  1248/2416 frames  1.57 fps  elapsed 13m14s  eta 12m23s
+  1296/2416 frames  1.58 fps  elapsed 13m41s  eta 11m50s
+  1344/2416 frames  1.59 fps  elapsed 14m08s  eta 11m16s
+  1392/2416 frames  1.59 fps  elapsed 14m35s  eta 10m44s
+  1440/2416 frames  1.59 fps  elapsed 15m04s  eta 10m13s
+  1488/2416 frames  1.59 fps  elapsed 15m34s  eta 9m42s
+  1536/2416 frames  1.59 fps  elapsed 16m04s  eta 9m12s
+  1584/2416 frames  1.59 fps  elapsed 16m34s  eta 8m42s
+  1632/2416 frames  1.59 fps  elapsed 17m05s  eta 8m13s
+  1680/2416 frames  1.59 fps  elapsed 17m36s  eta 7m43s
+  1728/2416 frames  1.59 fps  elapsed 18m07s  eta 7m13s
+  1776/2416 frames  1.59 fps  elapsed 18m40s  eta 6m44s
+  1824/2416 frames  1.58 fps  elapsed 19m13s  eta 6m14s
+  1872/2416 frames  1.58 fps  elapsed 19m45s  eta 5m44s
+  1920/2416 frames  1.58 fps  elapsed 20m18s  eta 5m15s
+  1968/2416 frames  1.57 fps  elapsed 20m51s  eta 4m45s
+  2016/2416 frames  1.57 fps  elapsed 21m24s  eta 4m15s
+  2064/2416 frames  1.57 fps  elapsed 21m56s  eta 3m44s
+  2112/2416 frames  1.57 fps  elapsed 22m25s  eta 3m14s
+  2160/2416 frames  1.57 fps  elapsed 22m54s  eta 2m43s
+  2208/2416 frames  1.57 fps  elapsed 23m22s  eta 2m12s
+  2256/2416 frames  1.58 fps  elapsed 23m50s  eta 1m41s
+  2304/2416 frames  1.58 fps  elapsed 24m19s  eta 1m11s
+  2352/2416 frames  1.58 fps  elapsed 24m46s  eta 0m40s
+  2400/2416 frames  1.58 fps  elapsed 25m15s  eta 0m10s
+
+Done: /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P062/build/video_silent.mp4  (25m26s)
+generating music: 4 section(s) — cute@0.5, gentle@0.5, sacred@0.5, gentle@0.7
+sfx: 7 cue(s), ambience on 18 shot(s)
+wrote projects/P062/build/mix.wav  (100.7s, target -14 LUFS)
+FINAL VIDEO: projects/P062/out/video.mp4
+Wrote 1 stills + contact sheet(s) to /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P062-cover/build/stills
+wrote /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P062/out/anh_bia.png
+DONE 02_P062_Dan_IT_hoi_xung_toi_co_can_qua_server_trung_gian 100.660000s
+
+real	27m16.468s
+user	6m32.710s
+sys	0m19.625s
+status=success
