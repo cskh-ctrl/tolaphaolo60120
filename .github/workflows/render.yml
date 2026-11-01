@@ -58,8 +58,7 @@ jobs:
           tail -c 20000 logs/${{ matrix.id }}.log > /tmp/log.txt || true
           echo "status=${{ job.status }}" >> /tmp/log.txt
           for k in 1 2 3 4 5; do
-            git fetch -q origin logs 2>/dev/null && git checkout -q -B logs origin/logs || git checkout -q --orphan logs
-            git rm -rq --cached . > /dev/null 2>&1 || true
+            if git fetch -q origin logs 2>/dev/null; then git checkout -q -f -B logs origin/logs; else git checkout -q --orphan logs; git rm -rq --cached . > /dev/null 2>&1 || true; fi
             mkdir -p runlogs/${{ github.run_number }} && cp /tmp/log.txt runlogs/${{ github.run_number }}/${{ matrix.id }}.txt
             git add runlogs/${{ github.run_number }}/${{ matrix.id }}.txt && git commit -qm "log ${{ matrix.id }}" && git push -q origin logs && break
             sleep $((RANDOM % 10 + 3)); git reset -q --hard
