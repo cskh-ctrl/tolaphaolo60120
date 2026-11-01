@@ -1,0 +1,262 @@
+{
+ "title": "Tại sao phải đi lễ Chúa Nhật?",
+ "duration": 60.0,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0,
+   "end": 2.8,
+   "line": "Tại sao Chúa Nhật nào cũng phải đi lễ?",
+   "scene": "HOOK: phòng ngủ, đồng hồ báo thức reo, Bin trùm chăn; tiêu đề TẠI SAO",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "alarm",
+     "gain": -12
+    }
+   ],
+   "captions": false
+  },
+  {
+   "id": "s02",
+   "start": 2.8,
+   "end": 5.4,
+   "line": "Bin ơi, dậy đi lễ con!",
+   "scene": "Mẹ đứng cửa, chống hông gọi",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false
+  },
+  {
+   "id": "s03",
+   "start": 5.4,
+   "end": 9.6,
+   "line": "Cả tuần con đi học rồi, Chúa Nhật cho con ngủ thêm chút đi mẹ!",
+   "scene": "Cận mặt Bin phụng phịu",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "boing",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s04",
+   "start": 9.6,
+   "end": 13.4,
+   "line": "Mẹ không giảng giải gì cả. Mẹ ngồi xuống cạnh giường.",
+   "scene": "Mẹ ngồi mép giường, Bin hé chăn nhìn",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s05",
+   "start": 13.4,
+   "end": 18.6,
+   "line": "Nếu cả tuần bố mẹ đều bận, không dành chút thời gian nào cho con, con có buồn không?",
+   "scene": "Cận mặt Mẹ dịu dàng hỏi",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s06",
+   "start": 18.6,
+   "end": 21.6,
+   "line": "Dạ... có ạ.",
+   "scene": "Cận Bin, nhận ra điều gì đó",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s07",
+   "start": 21.6,
+   "end": 27.6,
+   "line": "Chúa Nhật là Ngày của Chúa, ngày Hội Thánh mừng Chúa Giêsu Phục Sinh.",
+   "scene": "Không gian giải thích: thẻ kiến thức + nguồn",
+   "set": "dream",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s08",
+   "start": 27.6,
+   "end": 33.6,
+   "line": "Tham dự Thánh lễ Chúa Nhật là bổn phận của người Công giáo, và cũng là cách đáp lại tình yêu của Chúa.",
+   "scene": "Gia đình ngồi ghế trong nhà thờ, thẻ kiến thức",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "churchbell",
+     "gain": -14
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s09",
+   "start": 33.6,
+   "end": 38.4,
+   "line": "Còn bố thì... cũng đang cố gắng tỉnh táo.",
+   "scene": "Bố ngáp, Mẹ huých nhẹ — hài hước",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "boing",
+     "gain": -16
+    }
+   ],
+   "captions": true
+  },
+  {
+   "id": "s10",
+   "start": 38.4,
+   "end": 42.4,
+   "line": "Bin làm dấu Thánh Giá, lần đầu tiên thấy lòng mình bình an.",
+   "scene": "Bin làm dấu Thánh Giá",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s11",
+   "start": 42.4,
+   "end": 48.4,
+   "line": "Đi lễ không chỉ là bổn phận. Đó là đi gặp Đấng yêu mình nhất.",
+   "scene": "Cận Bin ngưỡng mộ, câu bài học",
+   "set": "dream",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "captions": false
+  },
+  {
+   "id": "s12",
+   "start": 48.4,
+   "end": 53.0,
+   "line": "Cha Minh vẫy tay chào cả nhà ở cổng nhà thờ.",
+   "scene": "Sân nhà thờ, Cha Minh vẫy tay, gia đình vui vẻ",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true
+  },
+  {
+   "id": "s13",
+   "start": 53.0,
+   "end": 60.0,
+   "line": "Bạn đi lễ Chúa Nhật vì bổn phận, vì thói quen từ nhỏ, hay vì thật sự muốn gặp Chúa?",
+   "scene": "Màn câu hỏi bình luận",
+   "set": "end",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 9.6,
+   "mood": "cute",
+   "intensity": 0.6
+  },
+  {
+   "start": 9.6,
+   "end": 21.6,
+   "mood": "gentle",
+   "intensity": 0.5
+  },
+  {
+   "start": 21.6,
+   "end": 48.4,
+   "mood": "sacred",
+   "intensity": 0.55
+  },
+  {
+   "start": 48.4,
+   "end": 60,
+   "mood": "gentle",
+   "intensity": 0.7
+  }
+ ]
+}

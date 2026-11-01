@@ -1,0 +1,88 @@
+name: Render 60 video
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'Danh sách tập (ví dụ P061,P062). Để trống = cả 60 tập'
+        required: false
+        default: ''
+  push:
+    branches: [main]
+    paths: ['pipeline/RUN']
+permissions:
+  contents: write
+concurrency:
+  group: render
+  cancel-in-progress: false
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    outputs:
+      ids: ${{ steps.l.outputs.ids }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: l
+        run: |
+          IDS="${{ github.event.inputs.ids }}"
+          if [ -z "$IDS" ]; then IDS=$(grep -v '^#' pipeline/RUN | tr -d ' \n' ); fi
+          if [ -z "$IDS" ] || [ "$IDS" = "ALL" ]; then IDS=$(ls episodes | tr '\n' ','); fi
+          echo "ids=$(python3 -c "import json,sys;print(json.dumps([x for x in sys.argv[1].split(',') if x]))" "$IDS")" >> "$GITHUB_OUTPUT"
+  render:
+    needs: list
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        id: ${{ fromJson(needs.list.outputs.ids) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Cài công cụ
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q numpy scipy
+          cd studio && npm install --no-audit --no-fund && npx playwright install --with-deps chromium > /dev/null
+      - name: Dựng ${{ matrix.id }}
+        env: { REPO: '${{ github.workspace }}' }
+        run: |
+          set -o pipefail
+          mkdir -p logs
+          ( time bash pipeline/build_episode.sh ${{ matrix.id }} 4 dist ) 2>&1 | tee logs/${{ matrix.id }}.log | grep -v 'frames ' || exit 1
+      - name: Ghi log lên nhánh logs
+        if: always()
+        run: |
+          git config user.name "render-bot"; git config user.email "render-bot@users.noreply.github.com"
+          tail -c 20000 logs/${{ matrix.id }}.log > /tmp/log.txt || true
+          echo "status=${{ job.status }}" >> /tmp/log.txt
+          for k in 1 2 3 4 5; do
+            git fetch -q origin logs 2>/dev/null && git checkout -q -B logs origin/logs || git checkout -q --orphan logs
+            git rm -rq --cached . > /dev/null 2>&1 || true
+            mkdir -p runlogs/${{ github.run_number }} && cp /tmp/log.txt runlogs/${{ github.run_number }}/${{ matrix.id }}.txt
+            git add runlogs/${{ github.run_number }}/${{ matrix.id }}.txt && git commit -qm "log ${{ matrix.id }}" && git push -q origin logs && break
+            sleep $((RANDOM % 10 + 3)); git reset -q --hard
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ep-${{ matrix.id }}
+          path: dist/
+          include-hidden-files: true
+          retention-days: 30
+          compression-level: 0
+  package:
+    needs: render
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { pattern: 'ep-*', path: dist, merge-multiple: true }
+      - name: Gom 10 video / thư mục và nén
+        run: python3 pipeline/package.py dist release
+      - name: Tạo Release
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          TAG="videos-${{ github.run_number }}"
+          gh release create "$TAG" release/*.zip -R ${{ github.repository }} -t "60 video Tớ là Phaolo (lần chạy ${{ github.run_number }})" -F release/NOTES.md
