@@ -1,0 +1,89 @@
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+added 6 packages in 2s
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+P099 17 shots 78.8s projects/P099
+Rendering frames 0-1893 (78.9 s) with 4 worker(s)…
+  worker 0: frames 0-474 launching
+  worker 1: frames 474-948 launching
+  worker 2: frames 948-1422 launching
+  worker 3: frames 1422-1893 launching
+  worker 3: player ready
+  worker 2: player ready
+  worker 1: player ready
+  worker 0: player ready
+  worker 2: first frame ok
+  worker 0: first frame ok
+  worker 1: first frame ok
+  worker 3: first frame ok
+  48/1893 frames  1.16 fps  elapsed 0m42s  eta 26m37s
+  96/1893 frames  1.28 fps  elapsed 1m15s  eta 23m26s
+  144/1893 frames  1.31 fps  elapsed 1m50s  eta 22m15s
+  192/1893 frames  1.32 fps  elapsed 2m25s  eta 21m27s
+  240/1893 frames  1.33 fps  elapsed 3m01s  eta 20m44s
+  288/1893 frames  1.35 fps  elapsed 3m33s  eta 19m45s
+  336/1893 frames  1.37 fps  elapsed 4m04s  eta 18m53s
+  384/1893 frames  1.38 fps  elapsed 4m39s  eta 18m15s
+  432/1893 frames  1.39 fps  elapsed 5m12s  eta 17m35s
+  480/1893 frames  1.40 fps  elapsed 5m42s  eta 16m48s
+  528/1893 frames  1.42 fps  elapsed 6m12s  eta 16m03s
+  576/1893 frames  1.42 fps  elapsed 6m44s  eta 15m24s
+  624/1893 frames  1.44 fps  elapsed 7m13s  eta 14m40s
+  672/1893 frames  1.45 fps  elapsed 7m42s  eta 13m59s
+  720/1893 frames  1.47 fps  elapsed 8m11s  eta 13m21s
+  768/1893 frames  1.47 fps  elapsed 8m42s  eta 12m44s
+  816/1893 frames  1.47 fps  elapsed 9m13s  eta 12m10s
+  864/1893 frames  1.48 fps  elapsed 9m44s  eta 11m36s
+  912/1893 frames  1.48 fps  elapsed 10m16s  eta 11m02s
+  960/1893 frames  1.48 fps  elapsed 10m50s  eta 10m31s
+  1008/1893 frames  1.47 fps  elapsed 11m25s  eta 10m01s
+  1056/1893 frames  1.47 fps  elapsed 11m57s  eta 9m28s
+  1104/1893 frames  1.47 fps  elapsed 12m29s  eta 8m55s
+  1152/1893 frames  1.48 fps  elapsed 13m01s  eta 8m22s
+  1200/1893 frames  1.48 fps  elapsed 13m33s  eta 7m49s
+  1248/1893 frames  1.48 fps  elapsed 14m04s  eta 7m16s
+  1296/1893 frames  1.48 fps  elapsed 14m37s  eta 6m44s
+  1344/1893 frames  1.48 fps  elapsed 15m09s  eta 6m11s
+  1392/1893 frames  1.48 fps  elapsed 15m41s  eta 5m39s
+  1440/1893 frames  1.48 fps  elapsed 16m13s  eta 5m06s
+  1488/1893 frames  1.48 fps  elapsed 16m45s  eta 4m33s
+  1536/1893 frames  1.48 fps  elapsed 17m18s  eta 4m01s
+  1584/1893 frames  1.48 fps  elapsed 17m52s  eta 3m29s
+  1632/1893 frames  1.48 fps  elapsed 18m25s  eta 2m57s
+  1680/1893 frames  1.48 fps  elapsed 18m56s  eta 2m24s
+  1728/1893 frames  1.48 fps  elapsed 19m29s  eta 1m52s
+  1776/1893 frames  1.48 fps  elapsed 20m01s  eta 1m19s
+  1824/1893 frames  1.47 fps  elapsed 20m40s  eta 0m47s
+  1872/1893 frames  1.46 fps  elapsed 21m19s  eta 0m14s
+
+Done: /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P099/build/video_silent.mp4  (21m35s)
+generating music: 4 section(s) — cute@0.5, gentle@0.5, sacred@0.5, gentle@0.7
+sfx: 7 cue(s), ambience on 14 shot(s)
+wrote projects/P099/build/mix.wav  (78.8s, target -14 LUFS)
+FINAL VIDEO: projects/P099/out/video.mp4
+Wrote 1 stills + contact sheet(s) to /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P099-cover/build/stills
+wrote /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P099/out/anh_bia.png
+DONE 39_P099_Em_trai_to_co_bang_lai_va_hieu_ra_bi_tich_Them_Suc 78.850000s
+
+real	23m23.694s
+user	5m0.931s
+sys	0m19.357s
+status=success
