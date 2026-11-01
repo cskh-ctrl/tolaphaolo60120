@@ -1,0 +1,104 @@
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+added 6 packages in 2s
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+P074 24 shots 109.2s projects/P074
+Rendering frames 0-2621 (109.2 s) with 4 worker(s)…
+  worker 0: frames 0-656 launching
+  worker 1: frames 656-1312 launching
+  worker 2: frames 1312-1968 launching
+  worker 3: frames 1968-2621 launching
+  worker 2: player ready
+  worker 3: player ready
+  worker 1: player ready
+  worker 0: player ready
+  worker 2: first frame ok
+  worker 0: first frame ok
+  worker 1: first frame ok
+  worker 3: first frame ok
+  48/2621 frames  2.69 fps  elapsed 0m18s  eta 15m55s
+  96/2621 frames  2.88 fps  elapsed 0m33s  eta 14m36s
+  144/2621 frames  2.96 fps  elapsed 0m49s  eta 13m56s
+  192/2621 frames  2.98 fps  elapsed 1m04s  eta 13m34s
+  240/2621 frames  3.00 fps  elapsed 1m20s  eta 13m15s
+  288/2621 frames  2.99 fps  elapsed 1m36s  eta 12m59s
+  336/2621 frames  3.01 fps  elapsed 1m52s  eta 12m40s
+  384/2621 frames  3.02 fps  elapsed 2m07s  eta 12m20s
+  432/2621 frames  3.05 fps  elapsed 2m22s  eta 11m59s
+  480/2621 frames  3.06 fps  elapsed 2m37s  eta 11m40s
+  528/2621 frames  3.09 fps  elapsed 2m51s  eta 11m18s
+  576/2621 frames  3.12 fps  elapsed 3m05s  eta 10m55s
+  624/2621 frames  3.14 fps  elapsed 3m19s  eta 10m36s
+  672/2621 frames  3.16 fps  elapsed 3m33s  eta 10m17s
+  720/2621 frames  3.17 fps  elapsed 3m47s  eta 10m01s
+  768/2621 frames  3.16 fps  elapsed 4m03s  eta 9m47s
+  816/2621 frames  3.15 fps  elapsed 4m19s  eta 9m33s
+  864/2621 frames  3.12 fps  elapsed 4m37s  eta 9m23s
+  912/2621 frames  3.11 fps  elapsed 4m53s  eta 9m09s
+  960/2621 frames  3.10 fps  elapsed 5m09s  eta 8m55s
+  1008/2621 frames  3.08 fps  elapsed 5m27s  eta 8m44s
+  1056/2621 frames  3.05 fps  elapsed 5m46s  eta 8m33s
+  1104/2621 frames  3.04 fps  elapsed 6m04s  eta 8m20s
+  1152/2621 frames  3.02 fps  elapsed 6m22s  eta 8m07s
+  1200/2621 frames  3.01 fps  elapsed 6m39s  eta 7m53s
+  1248/2621 frames  2.99 fps  elapsed 6m57s  eta 7m39s
+  1296/2621 frames  2.98 fps  elapsed 7m15s  eta 7m24s
+  1344/2621 frames  2.98 fps  elapsed 7m31s  eta 7m09s
+  1392/2621 frames  2.98 fps  elapsed 7m47s  eta 6m53s
+  1440/2621 frames  2.98 fps  elapsed 8m04s  eta 6m37s
+  1488/2621 frames  2.97 fps  elapsed 8m21s  eta 6m22s
+  1536/2621 frames  2.96 fps  elapsed 8m39s  eta 6m06s
+  1584/2621 frames  2.95 fps  elapsed 8m57s  eta 5m51s
+  1632/2621 frames  2.94 fps  elapsed 9m15s  eta 5m36s
+  1680/2621 frames  2.95 fps  elapsed 9m29s  eta 5m19s
+  1728/2621 frames  2.96 fps  elapsed 9m43s  eta 5m01s
+  1776/2621 frames  2.97 fps  elapsed 9m57s  eta 4m44s
+  1824/2621 frames  2.98 fps  elapsed 10m12s  eta 4m27s
+  1872/2621 frames  2.99 fps  elapsed 10m26s  eta 4m10s
+  1920/2621 frames  3.00 fps  elapsed 10m41s  eta 3m54s
+  1968/2621 frames  3.00 fps  elapsed 10m56s  eta 3m38s
+  2016/2621 frames  3.00 fps  elapsed 11m11s  eta 3m21s
+  2064/2621 frames  3.01 fps  elapsed 11m25s  eta 3m05s
+  2112/2621 frames  3.03 fps  elapsed 11m38s  eta 2m48s
+  2160/2621 frames  3.04 fps  elapsed 11m51s  eta 2m32s
+  2208/2621 frames  3.05 fps  elapsed 12m03s  eta 2m15s
+  2256/2621 frames  3.06 fps  elapsed 12m16s  eta 1m59s
+  2304/2621 frames  3.07 fps  elapsed 12m29s  eta 1m43s
+  2352/2621 frames  3.08 fps  elapsed 12m43s  eta 1m27s
+  2400/2621 frames  3.08 fps  elapsed 12m58s  eta 1m12s
+  2448/2621 frames  3.09 fps  elapsed 13m13s  eta 0m56s
+  2496/2621 frames  3.09 fps  elapsed 13m29s  eta 0m41s
+  2544/2621 frames  3.08 fps  elapsed 13m46s  eta 0m25s
+  2592/2621 frames  3.08 fps  elapsed 14m03s  eta 0m09s
+
+Done: /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P074/build/video_silent.mp4  (14m16s)
+generating music: 4 section(s) — cute@0.5, gentle@0.5, sacred@0.5, gentle@0.7
+sfx: 10 cue(s), ambience on 21 shot(s)
+wrote projects/P074/build/mix.wav  (109.2s, target -14 LUFS)
+FINAL VIDEO: projects/P074/out/video.mp4
+Wrote 1 stills + contact sheet(s) to /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P074-cover/build/stills
+wrote /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P074/out/anh_bia.png
+DONE 14_P074_Nguoi_Cong_giao_vao_chua_coi_dep_chap_tay_nhung_kh 109.180000s
+
+real	15m59.547s
+user	4m9.697s
+sys	0m17.723s
+status=success
