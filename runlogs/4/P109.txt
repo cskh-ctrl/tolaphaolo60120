@@ -1,0 +1,118 @@
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+added 6 packages in 2s
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+P109 29 shots 136.1s projects/P109
+Rendering frames 0-3268 (136.2 s) with 4 worker(s)…
+  worker 0: frames 0-817 launching
+  worker 1: frames 817-1634 launching
+  worker 2: frames 1634-2451 launching
+  worker 3: frames 2451-3268 launching
+  worker 1: player ready
+  worker 0: player ready
+  worker 3: player ready
+  worker 2: player ready
+  worker 0: first frame ok
+  worker 2: first frame ok
+  worker 1: first frame ok
+  worker 3: first frame ok
+  48/3268 frames  1.36 fps  elapsed 0m35s  eta 39m24s
+  96/3268 frames  1.50 fps  elapsed 1m04s  eta 35m16s
+  144/3268 frames  1.54 fps  elapsed 1m34s  eta 33m49s
+  192/3268 frames  1.56 fps  elapsed 2m03s  eta 32m58s
+  240/3268 frames  1.56 fps  elapsed 2m34s  eta 32m24s
+  288/3268 frames  1.57 fps  elapsed 3m04s  eta 31m44s
+  336/3268 frames  1.57 fps  elapsed 3m34s  eta 31m07s
+  384/3268 frames  1.56 fps  elapsed 4m07s  eta 30m51s
+  432/3268 frames  1.53 fps  elapsed 4m42s  eta 30m53s
+  480/3268 frames  1.51 fps  elapsed 5m17s  eta 30m40s
+  528/3268 frames  1.52 fps  elapsed 5m48s  eta 30m06s
+  576/3268 frames  1.52 fps  elapsed 6m19s  eta 29m31s
+  624/3268 frames  1.52 fps  elapsed 6m49s  eta 28m55s
+  672/3268 frames  1.52 fps  elapsed 7m21s  eta 28m23s
+  720/3268 frames  1.52 fps  elapsed 7m53s  eta 27m54s
+  768/3268 frames  1.52 fps  elapsed 8m24s  eta 27m21s
+  816/3268 frames  1.52 fps  elapsed 8m57s  eta 26m54s
+  864/3268 frames  1.52 fps  elapsed 9m29s  eta 26m24s
+  912/3268 frames  1.52 fps  elapsed 10m02s  eta 25m55s
+  960/3268 frames  1.50 fps  elapsed 10m38s  eta 25m34s
+  1008/3268 frames  1.49 fps  elapsed 11m17s  eta 25m18s
+  1056/3268 frames  1.48 fps  elapsed 11m56s  eta 24m59s
+  1104/3268 frames  1.47 fps  elapsed 12m33s  eta 24m37s
+  1152/3268 frames  1.45 fps  elapsed 13m17s  eta 24m23s
+  1200/3268 frames  1.42 fps  elapsed 14m03s  eta 24m13s
+  1248/3268 frames  1.40 fps  elapsed 14m51s  eta 24m03s
+  1296/3268 frames  1.38 fps  elapsed 15m39s  eta 23m49s
+  1344/3268 frames  1.36 fps  elapsed 16m28s  eta 23m34s
+  1392/3268 frames  1.34 fps  elapsed 17m18s  eta 23m19s
+  1440/3268 frames  1.34 fps  elapsed 17m54s  eta 22m43s
+  1488/3268 frames  1.34 fps  elapsed 18m28s  eta 22m05s
+  1536/3268 frames  1.35 fps  elapsed 19m00s  eta 21m26s
+  1584/3268 frames  1.36 fps  elapsed 19m27s  eta 20m41s
+  1632/3268 frames  1.37 fps  elapsed 19m55s  eta 19m58s
+  1680/3268 frames  1.37 fps  elapsed 20m23s  eta 19m16s
+  1728/3268 frames  1.38 fps  elapsed 20m51s  eta 18m35s
+  1776/3268 frames  1.39 fps  elapsed 21m22s  eta 17m57s
+  1824/3268 frames  1.39 fps  elapsed 21m53s  eta 17m20s
+  1872/3268 frames  1.40 fps  elapsed 22m21s  eta 16m40s
+  1920/3268 frames  1.40 fps  elapsed 22m52s  eta 16m03s
+  1968/3268 frames  1.40 fps  elapsed 23m23s  eta 15m27s
+  2016/3268 frames  1.41 fps  elapsed 23m52s  eta 14m50s
+  2064/3268 frames  1.41 fps  elapsed 24m24s  eta 14m14s
+  2112/3268 frames  1.41 fps  elapsed 24m54s  eta 13m38s
+  2160/3268 frames  1.41 fps  elapsed 25m27s  eta 13m03s
+  2208/3268 frames  1.41 fps  elapsed 26m06s  eta 12m32s
+  2256/3268 frames  1.41 fps  elapsed 26m40s  eta 11m58s
+  2304/3268 frames  1.41 fps  elapsed 27m15s  eta 11m24s
+  2352/3268 frames  1.41 fps  elapsed 27m52s  eta 10m51s
+  2400/3268 frames  1.40 fps  elapsed 28m30s  eta 10m19s
+  2448/3268 frames  1.40 fps  elapsed 29m06s  eta 9m45s
+  2496/3268 frames  1.40 fps  elapsed 29m41s  eta 9m11s
+  2544/3268 frames  1.40 fps  elapsed 30m18s  eta 8m37s
+  2592/3268 frames  1.40 fps  elapsed 30m54s  eta 8m04s
+  2640/3268 frames  1.40 fps  elapsed 31m31s  eta 7m30s
+  2688/3268 frames  1.39 fps  elapsed 32m09s  eta 6m56s
+  2736/3268 frames  1.39 fps  elapsed 32m46s  eta 6m22s
+  2784/3268 frames  1.39 fps  elapsed 33m25s  eta 5m49s
+  2832/3268 frames  1.38 fps  elapsed 34m11s  eta 5m16s
+  2880/3268 frames  1.36 fps  elapsed 35m10s  eta 4m44s
+  2928/3268 frames  1.35 fps  elapsed 36m09s  eta 4m12s
+  2976/3268 frames  1.35 fps  elapsed 36m53s  eta 3m37s
+  3024/3268 frames  1.34 fps  elapsed 37m37s  eta 3m02s
+  3072/3268 frames  1.35 fps  elapsed 38m02s  eta 2m26s
+  3120/3268 frames  1.35 fps  elapsed 38m30s  eta 1m50s
+  3168/3268 frames  1.36 fps  elapsed 38m58s  eta 1m14s
+  3216/3268 frames  1.36 fps  elapsed 39m25s  eta 0m38s
+  3264/3268 frames  1.36 fps  elapsed 39m53s  eta 0m03s
+
+Done: /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P109/build/video_silent.mp4  (39m56s)
+generating music: 4 section(s) — gentle@0.5, reflect@0.5, sacred@0.5, gentle@0.7
+sfx: 16 cue(s), ambience on 25 shot(s)
+wrote projects/P109/build/mix.wav  (136.1s, target -14 LUFS)
+FINAL VIDEO: projects/P109/out/video.mp4
+Wrote 1 stills + contact sheet(s) to /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P109-cover/build/stills
+wrote /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P109/out/anh_bia.png
+DONE 49_P109_Nguoi_cha_chay_ra_dau_duong_khong_doi_con_xin_loi 136.140000s
+
+real	41m55.443s
+user	9m5.629s
+sys	0m32.133s
+status=success
