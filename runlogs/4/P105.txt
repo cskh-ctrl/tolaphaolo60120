@@ -1,0 +1,93 @@
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+added 6 packages in 1s
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+P105 20 shots 87.6s projects/P105
+Rendering frames 0-2102 (87.6 s) with 4 worker(s)…
+  worker 0: frames 0-526 launching
+  worker 1: frames 526-1052 launching
+  worker 2: frames 1052-1578 launching
+  worker 3: frames 1578-2102 launching
+  worker 1: player ready
+  worker 0: player ready
+  worker 2: player ready
+  worker 3: player ready
+  worker 1: first frame ok
+  worker 3: first frame ok
+  worker 2: first frame ok
+  worker 0: first frame ok
+  48/2102 frames  2.17 fps  elapsed 0m22s  eta 15m47s
+  96/2102 frames  2.35 fps  elapsed 0m41s  eta 14m15s
+  144/2102 frames  2.32 fps  elapsed 1m02s  eta 14m04s
+  192/2102 frames  2.29 fps  elapsed 1m24s  eta 13m52s
+  240/2102 frames  2.27 fps  elapsed 1m46s  eta 13m39s
+  288/2102 frames  2.24 fps  elapsed 2m08s  eta 13m29s
+  336/2102 frames  2.23 fps  elapsed 2m31s  eta 13m13s
+  384/2102 frames  2.21 fps  elapsed 2m54s  eta 12m58s
+  432/2102 frames  2.20 fps  elapsed 3m16s  eta 12m38s
+  480/2102 frames  2.20 fps  elapsed 3m39s  eta 12m18s
+  528/2102 frames  2.19 fps  elapsed 4m01s  eta 11m60s
+  576/2102 frames  2.18 fps  elapsed 4m24s  eta 11m39s
+  624/2102 frames  2.18 fps  elapsed 4m47s  eta 11m19s
+  672/2102 frames  2.17 fps  elapsed 5m10s  eta 10m59s
+  720/2102 frames  2.16 fps  elapsed 5m33s  eta 10m40s
+  768/2102 frames  2.16 fps  elapsed 5m56s  eta 10m18s
+  816/2102 frames  2.16 fps  elapsed 6m19s  eta 9m57s
+  864/2102 frames  2.16 fps  elapsed 6m41s  eta 9m34s
+  912/2102 frames  2.15 fps  elapsed 7m04s  eta 9m13s
+  960/2102 frames  2.15 fps  elapsed 7m26s  eta 8m51s
+  1008/2102 frames  2.15 fps  elapsed 7m49s  eta 8m29s
+  1056/2102 frames  2.15 fps  elapsed 8m12s  eta 8m07s
+  1104/2102 frames  2.14 fps  elapsed 8m36s  eta 7m46s
+  1152/2102 frames  2.14 fps  elapsed 8m59s  eta 7m24s
+  1200/2102 frames  2.13 fps  elapsed 9m23s  eta 7m03s
+  1248/2102 frames  2.14 fps  elapsed 9m43s  eta 6m39s
+  1296/2102 frames  2.15 fps  elapsed 10m02s  eta 6m14s
+  1344/2102 frames  2.16 fps  elapsed 10m21s  eta 5m50s
+  1392/2102 frames  2.17 fps  elapsed 10m41s  eta 5m27s
+  1440/2102 frames  2.17 fps  elapsed 11m03s  eta 5m05s
+  1488/2102 frames  2.18 fps  elapsed 11m23s  eta 4m42s
+  1536/2102 frames  2.19 fps  elapsed 11m43s  eta 4m19s
+  1584/2102 frames  2.20 fps  elapsed 12m01s  eta 3m56s
+  1632/2102 frames  2.21 fps  elapsed 12m19s  eta 3m33s
+  1680/2102 frames  2.22 fps  elapsed 12m38s  eta 3m10s
+  1728/2102 frames  2.23 fps  elapsed 12m56s  eta 2m48s
+  1776/2102 frames  2.24 fps  elapsed 13m14s  eta 2m26s
+  1824/2102 frames  2.24 fps  elapsed 13m33s  eta 2m04s
+  1872/2102 frames  2.25 fps  elapsed 13m53s  eta 1m42s
+  1920/2102 frames  2.24 fps  elapsed 14m17s  eta 1m21s
+  1968/2102 frames  2.24 fps  elapsed 14m39s  eta 0m60s
+  2016/2102 frames  2.25 fps  elapsed 14m57s  eta 0m38s
+  2064/2102 frames  2.25 fps  elapsed 15m15s  eta 0m17s
+
+Done: /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P105/build/video_silent.mp4  (15m31s)
+generating music: 4 section(s) — cute@0.5, gentle@0.5, sacred@0.5, gentle@0.7
+sfx: 12 cue(s), ambience on 17 shot(s)
+wrote projects/P105/build/mix.wav  (87.6s, target -14 LUFS)
+FINAL VIDEO: projects/P105/out/video.mp4
+Wrote 1 stills + contact sheet(s) to /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P105-cover/build/stills
+wrote /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P105/out/anh_bia.png
+DONE 45_P105_Cuoi_xong_ba_noi_dat_hang_muoi_dua_chau 87.580000s
+
+real	17m14.317s
+user	3m52.560s
+sys	0m16.978s
+status=success
