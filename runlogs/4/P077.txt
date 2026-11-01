@@ -1,0 +1,93 @@
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+added 6 packages in 1s
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+P077 20 shots 86.1s projects/P077
+Rendering frames 0-2067 (86.1 s) with 4 worker(s)…
+  worker 0: frames 0-517 launching
+  worker 1: frames 517-1034 launching
+  worker 2: frames 1034-1551 launching
+  worker 3: frames 1551-2067 launching
+  worker 1: player ready
+  worker 3: player ready
+  worker 2: player ready
+  worker 0: player ready
+  worker 1: first frame ok
+  worker 3: first frame ok
+  worker 2: first frame ok
+  worker 0: first frame ok
+  48/2067 frames  1.11 fps  elapsed 0m43s  eta 30m25s
+  96/2067 frames  1.19 fps  elapsed 1m21s  eta 27m42s
+  144/2067 frames  1.21 fps  elapsed 1m59s  eta 26m28s
+  192/2067 frames  1.21 fps  elapsed 2m38s  eta 25m43s
+  240/2067 frames  1.21 fps  elapsed 3m18s  eta 25m08s
+  288/2067 frames  1.22 fps  elapsed 3m56s  eta 24m20s
+  336/2067 frames  1.22 fps  elapsed 4m36s  eta 23m43s
+  384/2067 frames  1.22 fps  elapsed 5m15s  eta 23m02s
+  432/2067 frames  1.22 fps  elapsed 5m54s  eta 22m22s
+  480/2067 frames  1.22 fps  elapsed 6m33s  eta 21m40s
+  528/2067 frames  1.22 fps  elapsed 7m13s  eta 21m03s
+  576/2067 frames  1.22 fps  elapsed 7m53s  eta 20m26s
+  624/2067 frames  1.22 fps  elapsed 8m33s  eta 19m46s
+  672/2067 frames  1.22 fps  elapsed 9m11s  eta 19m04s
+  720/2067 frames  1.22 fps  elapsed 9m50s  eta 18m24s
+  768/2067 frames  1.22 fps  elapsed 10m29s  eta 17m43s
+  816/2067 frames  1.23 fps  elapsed 11m06s  eta 17m01s
+  864/2067 frames  1.22 fps  elapsed 11m46s  eta 16m23s
+  912/2067 frames  1.22 fps  elapsed 12m25s  eta 15m43s
+  960/2067 frames  1.23 fps  elapsed 13m03s  eta 15m03s
+  1008/2067 frames  1.22 fps  elapsed 13m43s  eta 14m25s
+  1056/2067 frames  1.23 fps  elapsed 14m22s  eta 13m45s
+  1104/2067 frames  1.23 fps  elapsed 14m56s  eta 13m02s
+  1152/2067 frames  1.25 fps  elapsed 15m25s  eta 12m15s
+  1200/2067 frames  1.26 fps  elapsed 15m54s  eta 11m29s
+  1248/2067 frames  1.27 fps  elapsed 16m23s  eta 10m45s
+  1296/2067 frames  1.28 fps  elapsed 16m54s  eta 10m03s
+  1344/2067 frames  1.28 fps  elapsed 17m27s  eta 9m23s
+  1392/2067 frames  1.29 fps  elapsed 17m57s  eta 8m42s
+  1440/2067 frames  1.30 fps  elapsed 18m29s  eta 8m03s
+  1488/2067 frames  1.30 fps  elapsed 19m01s  eta 7m24s
+  1536/2067 frames  1.31 fps  elapsed 19m32s  eta 6m45s
+  1584/2067 frames  1.32 fps  elapsed 20m04s  eta 6m07s
+  1632/2067 frames  1.32 fps  elapsed 20m39s  eta 5m30s
+  1680/2067 frames  1.31 fps  elapsed 21m19s  eta 4m55s
+  1728/2067 frames  1.31 fps  elapsed 21m58s  eta 4m19s
+  1776/2067 frames  1.31 fps  elapsed 22m35s  eta 3m42s
+  1824/2067 frames  1.31 fps  elapsed 23m13s  eta 3m06s
+  1872/2067 frames  1.31 fps  elapsed 23m49s  eta 2m29s
+  1920/2067 frames  1.31 fps  elapsed 24m29s  eta 1m52s
+  1968/2067 frames  1.31 fps  elapsed 25m07s  eta 1m16s
+  2016/2067 frames  1.30 fps  elapsed 25m45s  eta 0m39s
+  2064/2067 frames  1.31 fps  elapsed 26m21s  eta 0m02s
+
+Done: /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P077/build/video_silent.mp4  (26m25s)
+generating music: 4 section(s) — cute@0.5, gentle@0.5, sacred@0.5, gentle@0.7
+sfx: 12 cue(s), ambience on 18 shot(s)
+wrote projects/P077/build/mix.wav  (86.1s, target -14 LUFS)
+FINAL VIDEO: projects/P077/out/video.mp4
+Wrote 1 stills + contact sheet(s) to /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P077-cover/build/stills
+wrote /home/runner/work/tolaphaolo60120/tolaphaolo60120/studio/projects/P077/out/anh_bia.png
+DONE 17_P077_Hoa_tang_roi_co_song_lai_khong_Ba_dieu_nhieu_nguoi 86.120000s
+
+real	28m13.795s
+user	4m59.176s
+sys	0m20.181s
+status=success
