@@ -134,6 +134,7 @@ def plan(vid, studio, render_dir):
     src_ep = os.path.join(ROOT, 'episodes', vid)
     shutil.copy(os.path.join(src_ep, 'voice.mp3'), os.path.join(P, 'input', 'voice.mp3'))
     shutil.copy(os.path.join(ROOT, 'pipeline', 'scenes', 'shots', 'auto.js'), os.path.join(P, 'scenes', 'shots', 'auto.js'))
+    open(os.path.join(P, 'scenes', 'shots', '99_cover.js'), 'w').write('// ảnh bìa: shot "cover" được đăng ký trong auto.js (đọc config.cover)\n')
     words = json.load(open(os.path.join(src_ep, 'words.json'), encoding='utf-8'))['words']
     for w in words: w['word'] = w['word'].replace(' ', ''); w.pop('interp', None)
     json.dump({'words': words}, open(os.path.join(P, 'timeline', 'words.json'), 'w', encoding='utf-8'), ensure_ascii=False)

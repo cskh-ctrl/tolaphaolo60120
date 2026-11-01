@@ -61,15 +61,19 @@ async function renderVideo() {
   console.log(`Rendering frames ${f0}-${f1} (${((f1 - f0) / fps).toFixed(1)} s) with ${W} worker(s)…`);
   const work = async (k) => {
     const a = f0 + k * chunk, b = Math.min(f1, a + chunk); if (a >= b) return null;
-    const browser = await chromium.launch(LAUNCH); const page = await openPlayer(browser);
+    console.log(`  worker ${k}: frames ${a}-${b} launching`); let browser = await chromium.launch(LAUNCH); let page = await openPlayer(browser); console.log(`  worker ${k}: player ready`);
+    const withTimeout = (pr, ms) => Promise.race([pr, new Promise((_, rej) => setTimeout(() => rej(new Error('frame timeout')), ms))]);
+    const safeShot = async (f) => { for (let tries = 0; ; tries++) { try { return await withTimeout(shot(page, f), 90000); } catch (e) {
+      if (tries >= 4) throw e; console.log(`  worker ${k}: frame ${f} ${e.message}, restarting browser (${tries + 1})`);
+      try { await withTimeout(browser.close(), 15000); } catch {} browser = await chromium.launch(LAUNCH); page = await openPlayer(browser); } } };
     const out = path.join(partsDir, `part_${String(k).padStart(3, '0')}.mp4`);
-    const ff = spawn('ffmpeg', ['-y', '-v', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-i', '-', '-c:v', 'libx264', '-preset', args.preset || 'medium', '-crf', String(args.crf || 18), '-pix_fmt', 'yuv420p', '-r', String(fps), out], { stdio: ['pipe', 'inherit', 'inherit'] });
+    const ff = spawn('ffmpeg', ['-y', '-v', 'error', '-f', 'image2pipe', '-c:v', FORMAT === 'jpeg' ? 'mjpeg' : 'png', '-framerate', String(fps), '-i', '-', '-c:v', 'libx264', '-preset', args.preset || 'medium', '-crf', String(args.crf || 18), '-pix_fmt', 'yuv420p', '-r', String(fps), out], { stdio: ['pipe', 'inherit', 'inherit'] });
     for (let f = a; f < b; f++) {
-      const img = await shot(page, f); if (!ff.stdin.write(img)) await new Promise(r => ff.stdin.once('drain', r)); done++;
+      const img = await safeShot(f); if (f === a) console.log(`  worker ${k}: first frame ok`); if (!ff.stdin.write(img)) await new Promise(r => ff.stdin.once('drain', r)); done++;
       if (done % 48 === 0) { const el = (Date.now() - t0) / 1000, eta = (el / done) * (f1 - f0 - done); process.stdout.write(`  ${done}/${f1 - f0} frames  ${(done / el).toFixed(2)} fps  elapsed ${fmtT(el)}  eta ${fmtT(eta)}\n`); }
     }
     (await page.evaluate('window.ERRORS')).forEach(e => errs.add(e));
-    ff.stdin.end(); await new Promise(r => ff.on('close', r)); await browser.close(); return out;
+    ff.stdin.end(); await new Promise(r => ff.on('close', r)); try { await withTimeout(browser.close(), 15000); } catch {} return out;
   };
   const parts = (await Promise.all([...Array(W)].map((_, k) => work(k)))).filter(Boolean);
   const list = path.join(partsDir, 'list.txt'); fs.writeFileSync(list, parts.map(p => `file '${p.replace(/\\/g, '/').replace(/'/g, "'\\''")}'`).join('\n'));
